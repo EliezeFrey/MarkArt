@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MarkArt</string>
+    <string name="register_title">Registrarse</string>
+    <string name="register_name_hint">Nombre</string>
+    <string name="register_email_hint">Correo electronico</string>
+    <string name="register_password_hint">Contraseña</string>
+    <string name="register_button_text">Registrarse</string>
+    <string name="login_title">Login</string>
+    <string name="login_button_text">Ingresar</string>
+    <string name="server_url">https://localhost</string>
+
+
+
+
+</resources>

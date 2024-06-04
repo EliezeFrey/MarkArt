@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_producto_simple.xml -->
+<!-- item_producto.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- Aquí se muestra la imagen del producto -->
+    <ImageView
+        android:id="@+id/fotoProductoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image" /> <!-- Puedes usar un placeholder por defecto -->
+
+    <!-- Otros detalles del producto -->
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Nombre del Producto"/>
+
+    <TextView
+        android:id="@+id/descripcionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción del Producto"/>
+
+    <TextView
+        android:id="@+id/precioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio: $0.00"/>
+
+    <TextView
+        android:id="@+id/cantidadTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad: 0"/>
+
+    <!-- Otros detalles del producto que desees mostrar -->
+</LinearLayout>
